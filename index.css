@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+.header{
+    padding-top: 5px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    /* background-color: #0048ff; */
+    background-color: #021955;
+}
+.cellname{
+    margin-right:100px;
+    color:white;
+    text-align: center;
+}
+.head1{
+    font-size:1.6rem;
+    font-weight:bolder;
+    margin-bottom:5px;
+}
+.head2{
+    font-size:1.1rem;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+.headpara{
+    font-size:0.9rem;
+    margin-bottom:5px;
+}
+.latestnews{
+    display: flex;
+    align-items: center;
+    height:50px;
+    /* background-color:#3ca5fb ; */
+    background-color:rgb(18, 64, 201) ;
+    /* background-color:rgb(46, 99, 232) ; */
+}
+.latestnewsheading{
+    width:10%;
+    font-size: 1.3rem;
+    padding-left:10px;
+    font-weight: bolder;
+    color: white;
+}
+.latestnewsdata{
+    width:90%;
+    color:brown;
+    font-weight: bold;
+    font-size:1.2rem;
+}
+.records > h2{
+    text-align: center;
+    margin-top: 50px;
+}
+.placement2022-23{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+.placement2021-22{
+    width:100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-top:20px;
+}
+th{
+    font-size: 1.2rem;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding-left:10px;
+    background-color:rgb(215, 213, 213);
+}
+tr:nth-child(odd){
+    background-color:rgb(244, 243, 243);
+}
+td{
+    padding-top:8px;
+    padding-bottom:8px;
+    border-bottom: 1px solid black;
+    padding-left:10px;
+}
+.ourteamh{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.ourteam{
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+.team{
+    /* border:3px solid gray; */
+    box-shadow: 2px 2px 8px gray;
+}
+.team > img{
+    height: 300px;
+    width: 300px;
+}
+.team > p{
+    font-size:1.2rem;
+    margin: 5px;
+    padding-left:5px;
+}
+.teamname{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+footer{
+    margin-top:50px;
+    /* background-color:#1b1a1a; */
+    background-color: #1e232c;
+    color:#949faf;
+    height:250px;
+    padding:20px;
+    padding-left: 30px;
+}
+.footertpo > h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 2rem;
+}
+.footertpo > pre{
+    margin-bottom: 8px;
+    font-size: 1.1rem;
+}
+.footerh:hover{
+color:white;
+}
+.footerp:hover{
+color:white;
+}
